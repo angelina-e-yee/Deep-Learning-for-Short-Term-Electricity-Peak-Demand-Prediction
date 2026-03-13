@@ -38,9 +38,9 @@ python test.py
 
 ## Model Architecture
 
-* Input: 14-day history (14 x 16 features).
-* Core: 2-Layer Stacked GRU (64 hidden units).
-* Regularization: 0.2 Dropout.
+* Input: 14-day history (14 x 12 features).
+* Core: 2-Layer Stacked GRU (128 hidden units).
+* Regularization: 0.4 Dropout.
 * Output: Fully Connected head mapping to 7-day forecast.
 
 ---
@@ -48,12 +48,12 @@ python test.py
 ## Results
 
 * Baseline: Linear Regression served as a temporal-agnostic floor.
-* Primary: The GRU successfully smoothed validation spikes and captured seasonal momentum.
-* Test Set Performance: [Insert Final Test MSE Here]
+* Primary: The GRU successfully smoothed validation spikes.
+* Test Set Performance: 0.006066!!
 
 ---
 
 ## Author
 
 Angelina Yee
-University of TorontoFaculty of Applied Science and Engineering
+University of Toronto, Faculty of Applied Science and Engineering
