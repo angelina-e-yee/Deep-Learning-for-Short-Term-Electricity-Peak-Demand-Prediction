@@ -1,7 +1,5 @@
 # Short-Term Electricity Demand Prediction for Ontario
 
-**APS360: Applied Fundamentals of Machine Learning**
-
 This repository contains a deep learning pipeline to forecast the next 7 days of electricity demand in Ontario. By integrating historical load data with weather variables and population growth metrics, the project implements a Stacked Gated Recurrent Unit (GRU) network to capture complex temporal dependencies over a 23-year period (2002-2025).
 
 ## Execution Flow
